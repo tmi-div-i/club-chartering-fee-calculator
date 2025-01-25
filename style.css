@@ -1,0 +1,82 @@
+/* Font and Color Styling */
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    color: #004165; /* Loyal Blue */
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-top: 5px solid #772432; /* Too Maroon */
+    border-radius: 12px;
+}
+
+input, button {
+    border-radius: 0 !important; /* Ensures no rounded corners */
+}
+
+/* Header Styling */
+h1 {
+    color: #004165 !important;; /* Too Maroon */
+    font-weight: 700; /* Bold for emphasis */
+    font-size: 2rem; /* Adjust size if necessary */
+    margin-bottom: 20px;
+}
+
+.bg-primary {
+    background-color: #004165 !important; /* Too Maroon */
+    color: white; /* Ensure text remains readable */
+}
+
+.card-header {
+    font-weight: 700;
+}
+
+
+/* Button Styling */
+button.btn-primary {
+    background-color: #002855; /* Loyal Blue */
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+/* Button Hover Effect */
+button.btn-primary:hover {
+    background-color: #004080; /* Slightly lighter Loyal Blue */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Output Styling */
+h4 span {
+    font-size: 24px;
+}
+
+/* Notes and Disclaimer */
+p {
+    font-size: 14px;
+    color: #004165; /* Loyal Blue */
+}
+
+p i {
+    color: #F2DF74; /* Happy Yellow */
+}
+
+h1, h4, label, button {
+    font-family: 'Lato', Arial, sans-serif; /* Use Lato for key elements */
+    font-weight: 700; /* Bold weight for headings */
+}
+
+p, input, select {
+    font-family: 'Lato', Arial, sans-serif; /* Standard weight for text inputs */
+    font-weight: 400; /* Normal weight for text */
+}
+
