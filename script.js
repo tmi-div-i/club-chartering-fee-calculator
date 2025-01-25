@@ -26,5 +26,6 @@ function calculateFee() {
 
     // Update outputs
     document.getElementById('totalUSD').textContent = formattedUSD;
-    document.getElementById('totalINR').textContent = formattedINR;
+    document.getElementById('totalINR').textContent = '(' + formattedINR + ')';
+    document.getElementById('fee_text').textContent = 'Total Fee: ';
 }

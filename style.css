@@ -80,3 +80,9 @@ p, input, select {
     font-weight: 400; /* Normal weight for text */
 }
 
+.card {
+    border-radius: 8px !important; /* Reduce the circular appearance */
+    border: 1px solid #e0e0e0; /* Optional: Add a subtle border for a cleaner look */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Keep shadow for elegance */
+}
+
